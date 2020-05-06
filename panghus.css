@@ -22,7 +22,6 @@ body {
 	justify-content: center;
 }
 
-
 .banner {
 	display: flex;
 	flex-direction: column; 
@@ -30,8 +29,7 @@ body {
 	display: inline-grid;
 	width: 250px;
 	height: 600px;
-	background-color: lightgray;
-	/* background-image: url("./assets/Hus1.jpg"); */
+	background-color: lightgray
 }
 
 .panghusLogo {
@@ -60,7 +58,6 @@ h1 {
 }
 
 h2 {
-	/* font-family: gothamBold, serif; */
 	font-family: gothamBook, sans-serif;
 	padding: 10px 20px;
 	margin: 0px;
