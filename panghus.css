@@ -32,29 +32,28 @@ body {
 	background-color: lightgray
 }
 
-.panghusLogo {
-	display: block;
-}
-
-.imgLogo {
-	width: 100px;
-	height: 100px;
-  margin: 10px 0px 0px 10px;
-  /* background-color: #6f6f6f; */
+.productImg {
+	width: 222px;
+	height: 129px;
+  align-self: center;
+  justify-self: center;
+  padding-top: 30px;
 }
 
 .infoText {
 	display: flex;
 	flex-direction: column;
   align-items: center;
-  text-align: center;
-  padding-top: 10px;
+  text-align: center;;
+	margin-top: 27px;
+	padding: 0px 20px;
 }
 
 h1 {
 	font-family: gothamBold, serif;
 	color: #6f6f6f;
 	font-size: x-large;
+	margin: 0px;
 }
 
 h2 {
@@ -65,23 +64,32 @@ h2 {
 	font-size: medium;
 }
 
+.bottomInfo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 button {
+	padding: 0px;
   margin: 10px;
-  padding: 0px;
-	/* border: solid 1px white; */
-	border: none;
+  border: solid 1px white;
+	border-radius: 50px;
 }
 
 button :hover {
+	border-radius: 50px;
 	cursor: pointer;
 	background-color: #6f6f6f;
 	color: white;
 }
 
-.productImg {
-	width: 215px;
-	height: 120px;
-  align-self: center;
-  justify-self: center;
-  padding-top: 14px;
+.panghusLogo {
+	display: block;
+}
+
+.imgLogo {
+	width: 70px;
+	height: 70px;
+  /* background-color: #6f6f6f; */
 }
